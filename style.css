@@ -9,8 +9,8 @@
 --lightest-blue: #9fa8da;
 --white: #ffffff;
 --black: #0e1442;
---orange: #ffb300;
---yellow: #fdd835;
+--orange: #ff8400;
+--yellow: #d19f54;
 --dark-pink: #ad1457;
 --light-pink: #d81b60;
 }
@@ -87,13 +87,13 @@ h3 {
   padding-bottom: 0;
 }
 .resume .base {
-  width: 30%;
+  width: 40%;
   padding: 30px 15px;
   background: var(--darker-blue);
   color: var(--white);
 }
 .resume .base .profile {
-  background: orange;
+  background: rgba(224, 146, 0, 0.998);
   padding: 30px 15px 40px 15px;
   margin: -30px -15px 45px -15px;
   position: relative;
@@ -147,16 +147,16 @@ h3 {
   line-height: 24px;
 }
 .resume .base .contact div a:hover {
-  color: yellow;
+  color: var(--yellow);
 }
 .resume .base .contact div a:hover span::after {
   width: 100%;
 }
 .resume .base .contact div:hover i {
-  color: yellow;
+  color: var(--yellow);
 }
 .resume .base .contact div i {
-  color: orange;
+  color: var(--orange);
   width: 20px;
   height: 20px;
   font-size: 20px;
@@ -170,7 +170,7 @@ h3 {
 .resume .base .contact div span::after {
   content: "";
   position: absolute;
-  background: yellow;
+  background: var(--yellow);
   height: 1px;
   width: 0;
   bottom: 0;
@@ -186,7 +186,7 @@ h3 {
   vertical-align: text-bottom;
 }
 .resume .base .follow .box a:hover i {
-  background: yellow;
+  background: var(--yellow);
   border-radius: 5px;
   transform: rotate(45deg) scale(0.8);
 }
@@ -196,7 +196,7 @@ h3 {
 .resume .base .follow .box i {
   display: inline-block;
   font-size: 30px;
-  background: orange;
+  background: var(--orange);
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -230,7 +230,7 @@ h3 {
 }
 .resume .func h3 i {
   color: var(--darker-blue);
-  background: orange;
+  background: var(--orange);
   width: 42px;
   height: 42px;
   font-size: 20px;
@@ -263,7 +263,7 @@ h3 {
 }
 .resume .func .work ul li:hover span,
 .resume .func .edu ul li:hover span {
-  color: yellow;
+  color: var(--yellow);
 }
 @keyframes circle {
   from {
@@ -300,7 +300,7 @@ h3 {
   width: 7px;
   height: 7px;
   border: 3px solid var(--white);
-  background: orange;
+  background: var(--orange);
   border-radius: 50%;
   left: 3px;
   z-index: 1;
@@ -343,11 +343,11 @@ h3 {
   transition-duration: 0.3s;
 }
 .resume .func .skills-prog ul li:hover {
-  color: yellow;
+  color: var(--yellow);
 }
 .resume .func .skills-prog ul li:hover .skills-bar .bar {
-  background: yellow;
-  box-shadow: 0 0 0 1px yellow;
+  background: var(--yellow);
+  box-shadow: 0 0 0 1px var(--yellow);
 
 }
 .resume .func .skills-prog ul li span {
@@ -365,8 +365,8 @@ h3 {
   position: absolute;
   top: -1px;
   height: 4px;
-  background: orange;
-  box-shadow: 0 0 0 orange;
+  background: var(--orange);
+  box-shadow: 0 0 0 var(--orange);
   border-radius: 5px;
   width: var(--i);
 }
@@ -385,7 +385,7 @@ h3 {
   position: relative;
 }
 .resume .func .skills-soft ul li:hover svg .cbar {
-  stroke: yellow;
+  stroke: var(--yellow);
   stroke-width: 4px;
 }
 .resume .func .skills-soft ul li:hover span,
@@ -403,7 +403,7 @@ h3 {
 }
 .resume .func .skills-soft ul li svg .cbar {
   stroke-width: 3px;
-  stroke: orange;
+  stroke: var(--orange);
   stroke-linecap: round;
   width: var(--i);
 }
@@ -444,7 +444,7 @@ h3 {
   transform: scale(1.2);
 }
 .resume .func .interests-items div:hover span {
-  color: yellow;
+  color: var(--yellow);
   transition-duration: 0.3s;
 }
 .resume .func .interests-items div i {
@@ -452,7 +452,7 @@ h3 {
   width: 60px;
   height: 60px;
   line-height: 60px;
-  color: orange;
+  color: var(--orange);
   transition-duration: 0.3s;
 }
 .resume .func .interests-items div span {
